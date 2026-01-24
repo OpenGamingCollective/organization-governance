@@ -19,7 +19,7 @@ This working group will own an organization that will host shared components, ag
 
 "Upstream First" is a rigorous technical policy. It means that any code produced or improved by OGC is intended to live in the original source project (e.g., the official Mesa repository) rather than being maintained as a permanent "patch" or "fork" within OGC.
 - Reducing Technical Debt: Owners agree not to "hoard" features. Carrying local patches makes software harder to update over time. By pushing for changes to exist upstream, owners ensure the long-term health of the gaming stack.
-- Strategic Advocacy: With the "Owner" role definition, this involves Upstream Advocacy. Owners are agreeing to do the hard work of negotiating with upstream maintainers to get OGC’s improvements accepted into the main codebases.
+- Strategic Advocacy: As the "Owner" role definition suggests, this involves Upstream Advocacy. Owners are agreeing to do the hard work of negotiating with upstream maintainers to get OGC’s improvements accepted into the main codebases.
 - Sustainability: This commitment ensures that if OGC were to ever dissolve, the work wouldn't disappear; it would already be part of the foundational Linux ecosystem (Fedora, Arch, KDE, etc.).
 
 ### Document Upstream Work
@@ -36,7 +36,7 @@ The OGC has a commitment to ecosystem awareness and transparency. It ensures tha
 We want to provide the best in class gaming experience for projects that adopt our deliverables.
 
 ### Inclusive is better than exclusive
-Broadly successful and useful technologies require different perspectives and skill sets, which can only be heard in a welcoming and respectful environment. Our community respects the time and effort put into a discussion. We honor discussion by carefully evaluating the work of our owners, members and other contributors. By doing this, it helps realize our final goal of improving the upstream ecosystem.
+Broadly successful and useful technologies require different perspectives and skill sets, which can only be heard in a welcoming and respectful environment. Our community respects the time and effort put into a discussion. We honor discussion by carefully evaluating the work of our owners, members, and other contributors. By doing this, it helps realize our final goal of improving the upstream ecosystem.
 
 ### Evolution is better than stagnation
 Openness to new ideas and studied technological evolution make us a stronger project.
