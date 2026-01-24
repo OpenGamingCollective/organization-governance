@@ -11,24 +11,24 @@ OGC focuses on the foundational layers of the Linux gaming stack. This includes,
 - Graphics & Display: Mesa, Vulkan extensions, and windowing protocols (Wayland).
 - Hardware Enablement: Kernel drivers, firmware coordination, and peripheral support (HID).
 
-This working group will own an organization that will host shared components, agreed upon by the members, that all can use.
+This working group will own an organization that will host shared components, agreed upon by the owners, that all can use.
 
-## Members Agreement
+## Owners Agreement
 
 ### Upstream First
 
 "Upstream First" is a rigorous technical policy. It means that any code produced or improved by OGC is intended to live in the original source project (e.g., the official Mesa repository) rather than being maintained as a permanent "patch" or "fork" within OGC.
-- Reducing Technical Debt: Members agree not to "hoard" features. Carrying local patches makes software harder to update over time. By pushing for changes to exist upstream, members ensure the long-term health of the gaming stack.
-- Strategic Advocacy: As the "Member" role definition suggests, this involves Upstream Advocacy. Members are agreeing to do the hard work of negotiating with upstream maintainers to get OGC’s improvements accepted into the main codebases.
+- Reducing Technical Debt: Owners agree not to "hoard" features. Carrying local patches makes software harder to update over time. By pushing for changes to exist upstream, owners ensure the long-term health of the gaming stack.
+- Strategic Advocacy: As the "Owner" role definition suggests, this involves Upstream Advocacy. Owners are agreeing to do the hard work of negotiating with upstream maintainers to get OGC’s improvements accepted into the main codebases.
 - Sustainability: This commitment ensures that if OGC were to ever dissolve, the work wouldn't disappear; it would already be part of the foundational Linux ecosystem (Fedora, Arch, KDE, etc.).
 
 ### Document Upstream Work
 
 The OGC has a commitment to ecosystem awareness and transparency. It ensures that OGC does not become an "island" that duplicates work already happening elsewhere.
 
-- Tracking Issues: Members will agree to create tracking issues in the OGC Organization that will map to the various upstreaming efforts for transparency and visibility for the group. Members will agree to check the tracker before starting work and collaborate where necessary versus duplicating effort.
-- Knowledge Sharing: Members are agreeing to make their research public. This helps the community understand why a certain technical path was chosen based on the current state of upstream development.
-- Accountability in Ownership: By documenting work, members identify which organizations or individuals are leading specific efforts.
+- Tracking Issues: Owners will agree to create tracking issues in the OGC Organization that will map to the various upstreaming efforts for transparency and visibility for the group. Owners will agree to check the tracker before starting work and collaborate where necessary versus duplicating effort.
+- Knowledge Sharing: Owners are agreeing to make their research public. This helps the community understand why a certain technical path was chosen based on the current state of upstream development.
+- Accountability in Ownership: By documenting work, owners identify which organizations or individuals are leading specific efforts.
 
 ## Values
 
@@ -36,7 +36,7 @@ The OGC has a commitment to ecosystem awareness and transparency. It ensures tha
 We want to provide the best in class gaming experience for projects that adopt our deliverables.
 
 ### Inclusive is better than exclusive
-Broadly successful and useful technologies require different perspectives and skill sets, which can only be heard in a welcoming and respectful environment. Our community respects the time and effort put into a discussion. We honor discussion by carefully evaluating the work of our members and other contributors. By doing this, it helps realize our final goal of improving the upstream ecosystem.
+Broadly successful and useful technologies require different perspectives and skill sets, which can only be heard in a welcoming and respectful environment. Our community respects the time and effort put into a discussion. We honor discussion by carefully evaluating the work of our owners, members, and other contributors. By doing this, it helps realize our final goal of improving the upstream ecosystem.
 
 ### Evolution is better than stagnation
 Openness to new ideas and studied technological evolution make us a stronger project.
@@ -73,13 +73,13 @@ The purpose of this section is to provide some strategies for how to deal with c
 
 ### Ownership of Decisions
 
-Open Gaming Collective is a group made up of members. They are **all** responsible for decisions made when they have reached consensus. It is important that members communicate with each other and help take ownership of issues as they arise from our decisions.
+Open Gaming Collective is a group made up of owners. They are **all** responsible for decisions made when they have reached consensus. It is important that owners communicate with each other and help take ownership of issues as they arise from our decisions.
 
 ### Changes to Scope
 
 The intention of this group is to keep the scope small and focused to allow us to focus on the mission. This does not mean that the scope is not able to be changed. Changes to the scope will require a change proposal to be written and to provide reasoning for why we must change the scope. 
 
-The change proposal must be submitted to source control as an issue for review by existing members using Lazy Consensus.
+The change proposal must be submitted to source control as an issue for review by existing owners using Lazy Consensus.
 
 ## Communication Channels
 
@@ -97,15 +97,15 @@ Community Chat can be used as a way for us to communicate or work together on pr
 
 ## Source Control Platform Role Definitions
 
-This document outlines the distinctions between **Members** and **Approvers** within the Open Gaming Collective Organization. The primary difference lies in the balance between **Strategic Management** (Member) and **Technical Execution** (Approver).
+This document outlines the distinctions between **Owners** and **Members** within the Open Gaming Collective Organization. The primary difference lies in the balance between **Strategic Management** (Owner) and **Technical Execution** (Member).
 
 >[name=Reviewer Comment][color=#FF0044] Check on CRA. {%preview https://best.openssf.org/CRA-Brief-Guide-for-OSS-Developers %}
 
-### 1. Member (Organization Member)
+### 1. Owner (Organization Member)
 
-A **Member** is a maintainer within the source control platform. Their role is focused on the "why" and "should" of the organization, ensuring that every contribution aligns with the long-term mission and organizational health. They inherit all of the requirements and responsibilities that approvers have.
+An **Owner** is a maintainer within the source control platform. Their role is focused on the "why" and "should" of the organization, ensuring that every contribution aligns with the long-term mission and organizational health. They inherit all of the requirements and responsibilities that members have.
 
-They represent a member project, and there will be only one or two representatives from each project at the Member level.
+They represent a member project, and there will be only one or two representatives from each project at the Owner level.
 
 **Defined by:** Official membership within the Open Gaming Collective organization.
 
@@ -113,18 +113,18 @@ They represent a member project, and there will be only one or two representativ
 * **Organizational Alignment:** Deep understanding of the project mission and how it fits into the broader Linux gaming ecosystem.
 * **Upstream Advocacy:** Ability to represent the organization in discussions with upstream projects (e.g., Fedora, Arch, KDE, etc.).
 * **Sustainability Mindset:** Demonstrated interest in the project's long-term health beyond individual code fixes.
-* **Community Leadership:** Willingness to mentor new contributors and guide potential Approvers.
+* **Community Leadership:** Willingness to mentor new contributors and guide potential Members.
 
 #### Responsibilities and Privileges
 * **Strategic Governance:** Authority to accept or reject proposed repositories for the group to track and changes to this agreement based on mission fit.
 * **Organizational Management:** Handling administrative tasks, including labels, milestones, repository settings, and CI/CD secrets.
 * **Conflict Resolution:** Assist in technical disputes or community disagreements.
 
-### 2. Approver (Repository-level Maintainer)
+### 2. Member (Repository-level Maintainer)
 
-An **Approver** is a trusted expert empowered to validate technical correctness. Their role is focused on the "how" and "if," ensuring that code is performant, bug-free, and maintainable.
+A **Member** is a trusted expert empowered to validate technical correctness. Their role is focused on the "how" and "if," ensuring that code is performant, bug-free, and maintainable.
 
-They are maintainers within specific repositories in the organization, and there may be as many approvers from a project as is necessary.
+They are maintainers within specific repositories in the organization, and there may be as many members from a project as is necessary.
 
 **Defined by:** Write/Merge access to specific repositories, without being a formal member of the organization.
 
@@ -142,17 +142,17 @@ They are maintainers within specific repositories in the organization, and there
 
 ### Role Comparison Summary
 
-| Feature | Member | Approver |
-| :--- | :--- | :--- |
-| **Primary Focus** | Strategy: "Should we build this?" | Execution: "Is this built correctly?" |
-| **Status** | Official Org Member | External Contributor (Write Access) |
-| **Admin Rights** | Manages repo settings & secrets | No administrative overhead |
-| **Scope of Authority** | Organization-wide | Specific repositories or sub-systems |
+| Feature                | Owner                             | Member                                |
+| :--------------------- | :-------------------------------- | :------------------------------------ |
+| **Primary Focus**      | Strategy: "Should we build this?" | Execution: "Is this built correctly?" |
+| **Status**             | Official Org Member               | External Contributor (Write Access)   |
+| **Admin Rights**       | Manages repo settings & secrets   | No administrative overhead            |
+| **Scope of Authority** | Organization-wide                 | Specific repositories or sub-systems  |
 
 ### Progression
 
-- Becoming an Approver: Regular contributors who demonstrate technical mastery and a consistent history of high-quality PRs may be nominated by any existing Member or Approver.
-- Becoming a Member: Approvers who show sustained interest in the project's strategic direction and organizational health can be invited to Membership by a majority vote of current Members.
+- Becoming a Member: Regular contributors who demonstrate technical mastery and a consistent history of high-quality PRs may be nominated by any existing Owner or Member.
+- Becoming an Owner: Members who show sustained interest in the project's strategic direction and organizational health can be invited to Membership by a majority vote of current Owners.
 
 ## Code of Conduct
 
