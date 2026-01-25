@@ -1,8 +1,8 @@
-# Proposal: OGC Kernel Repository Layout and Workflow (bouhaa)
+# OGC Kernel Repository Layout and Workflow
 
 ## 1. Introduction
 
-The Open Gaming Collective (OGC) maintains a custom Linux kernel intended for use by downstream distributions and their users. This proposal describes the recommended repository layout, workflows, and policies for developing, maintaining, and distributing OGC kernel patches.
+The Open Gaming Collective (OGC) maintains a custom Linux kernel intended for use by downstream distributions and their users. This document describes the repository layout, workflows, and policies for developing, maintaining, and distributing OGC kernel patches.
 
 The goal is to:
 
@@ -63,6 +63,7 @@ This repository is dedicated exclusively to **kernel patch development and testi
 ### 4.2 Repository Origin
 
 * **Forked from:** `torvalds/linux`
+* **Branched from:** tagged releases e.g. `6.18`
 
 ### 4.3 Continuous Integration and Builds
 
@@ -231,7 +232,7 @@ ubuntu/
 
 ## 6. Summary
 
-This proposal establishes:
+This document outlines:
 
 * A clear separation between kernel development and packaging.
 * A strict but flexible upstream-first policy.
