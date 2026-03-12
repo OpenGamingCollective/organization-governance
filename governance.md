@@ -99,8 +99,6 @@ Community Chat can be used as a way for us to communicate or work together on pr
 
 This document outlines the distinctions between **Owners** and **Members** within the Open Gaming Collective Organization. The primary difference lies in the balance between **Strategic Management** (Owner) and **Technical Execution** (Member).
 
->[name=Reviewer Comment][color=#FF0044] Check on CRA. {%preview https://best.openssf.org/CRA-Brief-Guide-for-OSS-Developers %}
-
 ### 1. Owner (Organization Member)
 
 An **Owner** is a maintainer within the source control platform. Their role is focused on the "why" and "should" of the organization, ensuring that every contribution aligns with the long-term mission and organizational health. They inherit all of the requirements and responsibilities that members have.
