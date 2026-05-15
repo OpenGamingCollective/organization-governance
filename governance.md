@@ -108,7 +108,7 @@ Announcement drafts must be submitted to the source control platform as a pull r
 Announcements follow the Lazy Consensus model:
 
 - An announcement may be posted once **48 hours** have elapsed since the last substantive edit to the draft.
-- Regardless of edits, an announcement may be posted no later than **96 hours** after the initial draft was submitted. This cap prevents an announcement from being delayed indefinitely through repeated edits.
+- Regardless of edits, an announcement may be posted once **96 hours** have passed since the initial draft was submitted. This cap prevents an announcement from being delayed indefinitely through repeated edits.
 - Editorial changes — such as fixing typos, formatting, or broken links — do not reset the 48-hour timer. Substantive changes to the content or meaning of the announcement do.
 - An objection, raised as a -1 with a legitimate reason in line with the [Conflict Resolution](#conflict-resolution) section, pauses the timeline until the objection is resolved.
 
