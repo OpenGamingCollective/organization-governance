@@ -95,6 +95,35 @@ This includes but is not limited to:
 
 Community Chat can be used as a way for us to communicate or work together on problems, but cannot be used as a way to make any official decisions regarding the OGC.
 
+## Public Announcements
+
+A **public announcement** is any communication posted on behalf of the OGC through an official channel. This includes, but is not limited to, official social media accounts, the project blog or website, and mailing lists. Statements made by owners or members through their personal channels are not public announcements and are not governed by this policy.
+
+The purpose of this policy is to ensure that anything published in the OGC's name has been reviewed by the owners, while still allowing announcements to be made in a timely manner.
+
+### Non-Urgent Announcements
+
+Announcement drafts must be submitted to the source control platform as a pull request or issue, so that the review timeline is publicly visible and auditable. Drafts shared only through Community Chat do not start the review timeline.
+
+Announcements follow the Lazy Consensus model:
+
+- An announcement may be posted once **48 hours** have elapsed since the last substantive edit to the draft.
+- Regardless of edits, an announcement may be posted no later than **96 hours** after the initial draft was submitted. This cap prevents an announcement from being delayed indefinitely through repeated edits.
+- Editorial changes — such as fixing typos, formatting, or broken links — do not reset the 48-hour timer. Substantive changes to the content or meaning of the announcement do.
+- An objection, raised as a -1 with a legitimate reason in line with the [Conflict Resolution](#conflict-resolution) section, pauses the timeline until the objection is resolved.
+
+### Urgent Announcements
+
+An announcement is **urgent** when a delay would cause material harm to the OGC or its community. Examples include a security incident, a Code of Conduct matter, or a correction to misinformation that is actively spreading.
+
+The waiting period for an urgent announcement may be bypassed with written consensus from at least **50% of organization owners** (rounded up). This consensus must be recorded in the announcement's pull request or issue so that it remains auditable.
+
+Any owner may still raise an objection to an urgent announcement. An unresolved objection blocks the announcement, regardless of consensus already given.
+
+### Corrections and Retractions
+
+If a published announcement is later found to be inaccurate or misleading, a correction or retraction is itself treated as an **urgent announcement** and follows the process above.
+
 ## Source Control Platform Role Definitions
 
 This document outlines the distinctions between **Owners** and **Members** within the Open Gaming Collective Organization. The primary difference lies in the balance between **Strategic Management** (Owner) and **Technical Execution** (Member).
