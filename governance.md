@@ -97,13 +97,13 @@ Community Chat can be used as a way for us to communicate or work together on pr
 
 ## Public Announcements
 
-A **public announcement** is any communication posted on behalf of the OGC through an official channel. This includes, but is not limited to, official social media accounts, the project blog or website, and mailing lists. Statements made by owners or members through their personal channels are not public announcements and are not governed by this policy.
+A **public announcement** is any communication posted on behalf of the OGC through an official channel. This includes, but is not limited to, official social media accounts, [Community Chat](#community-chat), the project blog or website, and mailing lists. Statements made by owners or members through their personal channels are not public announcements and are not governed by this policy.
 
 The purpose of this policy is to ensure that anything published in the OGC's name has been reviewed by the owners, while still allowing announcements to be made in a timely manner.
 
 ### Non-Urgent Announcements
 
-Announcement drafts must be submitted to the source control platform as a pull request or issue, so that the review timeline is publicly visible and auditable. Drafts shared only through Community Chat do not start the review timeline.
+Announcement drafts must be submitted to the private OGC announcement drafts forum, so that the review timeline is visible to and auditable by all organization members. Drafts shared only through Community Chat do not start the review timeline.
 
 Announcements follow the Lazy Consensus model:
 
@@ -116,7 +116,7 @@ Announcements follow the Lazy Consensus model:
 
 An announcement is **urgent** when a delay would cause material harm to the OGC or its community. Examples include a security incident, a Code of Conduct matter, or a correction to misinformation that is actively spreading.
 
-The waiting period for an urgent announcement may be bypassed with written consensus from at least **50% of organization owners** (rounded up). This consensus must be recorded in the announcement's pull request or issue so that it remains auditable.
+The waiting period for an urgent announcement may be bypassed with written consensus from at least **50% of organization owners** (rounded up). This consensus must be recorded in the announcement's drafts forum thread so that it remains auditable.
 
 Any owner may still raise an objection to an urgent announcement. An unresolved objection blocks the announcement, regardless of consensus already given.
 
