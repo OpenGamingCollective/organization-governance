@@ -97,7 +97,7 @@ Community Chat can be used as a way for us to communicate or work together on pr
 
 ## Public Announcements
 
-A **public announcement** is any communication posted on behalf of the OGC through an official channel. This includes, but is not limited to, official social media accounts, [Community Chat](#community-chat), the project blog or website, and mailing lists. Statements made by owners or members through their personal channels are not public announcements and are not governed by this policy.
+A **public announcement** is any communication posted on behalf of the OGC through an official channel. This includes, but is not limited to, official social media accounts, [Community Chats](#community-chat), the project blog or website, and mailing lists. Statements made by owners or members through their personal channels are not public announcements and are not governed by this policy.
 
 The purpose of this policy is to ensure that anything published in the OGC's name has been reviewed by the owners, while still allowing announcements to be made in a timely manner.
 
