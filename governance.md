@@ -63,6 +63,10 @@ Paraphrased from the [Apache Community](https://community.apache.org/committers/
 
 This model strikes a balance of getting things done and avoiding unnecessary discussion about a change.
 
+### Voting
+
+See [voting.md](voting.md).
+
 ### Conflict Resolution
 
 The purpose of this section is to provide some strategies for how to deal with conflict when it inevitably arises.
